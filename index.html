@@ -1,0 +1,234 @@
+<h1>Deneme</h1>
+<!-- Aciklama satiri-->
+<!-- ctrl+ö aciklama satiri kisa yolu -->
+<h2> HTML</h2>
+<h3>Aciklamalarla Calismak</h3>
+<p>
+    paragraf eklemek icin
+</p>
+
+<h3> Basliklar ve Paragraflarla Calismak </h3>
+<p> dskabjfsansfa fsanfksafsa</p>
+<p> fklsbjafnksdfsdf fsadjklnfsaf</p>
+<p> fsaldnkfs flknsfsfsdfsd</p>
+
+<h2>CSS</h2>
+<H2>Boostrap</H2>
+
+<!-- 
+    Sırali listeler 1,2,3, ordered list -> ol
+    Sirali olmayan listeler *,*,* -> unordered list ->ul
+    List item ->li
+-->
+
+<h1> Listeler</h1>
+<ol>
+    <li>Liste Ogesi *1*</li>
+    <li>Liste Ogesi *2*</li>
+    <li>Liste Ogesi *3*</li> 
+    <li>
+        <ul>
+            <li>Liste Ogesi *1*</li>
+            <li>Liste Ogesi *2*</li>
+            <li>Liste Ogesi *3*</li>
+        </ul>
+    </li>
+</ol>
+
+<ul>
+    <li>Liste Ogesi *1*</li>
+    <li>Liste Ogesi *2*</li>
+    <li>Liste Ogesi *3*</li>
+</ul>
+
+<h1>Html</h1>
+<h2> Emmet/ zen coding </h2>
+<!-- 
+    etiket isimlerini direkt verebiliyoruz
+    + kardes oge 
+    > icinde oge 
+    ^ yukari cik ve oge olustur
+    * carp -> p*3 
+    lorem ??
+     . ->class
+     # -> id
+-->
+<!-- h1+h2 yazdığımızda otomatik etiket olusturuyor-->
+<h1></h1>
+<h2></h2>
+<!-- h1+p*2+h2+p*4 yazdigimizda-->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- ul>li*5 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nostrum quod veniam possimus sequi dolore sint magnam doloremque quibusdam necessitatibus libero debitis quas ea temporibus, obcaecati minus molestias repellat beatae!</p>
+
+<!-- lorem4 -> 4 kelimelik lorem üret-->
+Lorem ipsum dolor sit.
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 yanlis yazim -->
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1  dogru yazim -->
+<ul>
+    <li>Lorem.</li>
+    <li>Vitae.</li>
+    <li>Quos?</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Qui quo assumenda asperiores.</p>
+<h3>Lorem.</h3>
+
+<h3 class="deneme">Lorem</h3>
+<h3 id=""idOlussun>Lorem</h3>
+<!-- birden fazla clas olusacaksa bosluk kullanmadan-->
+
+<ul>
+    <div class="tepki"></div>
+</ul>
+
+
+<!-- Gorselle calismak
+1- kendi bilgisayarinda bulunuyor
+2- internette herhangi bir web sitesinde olabilir-->
+
+<!-- 2.yontem src:kaynak-->
+<img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_288,h_288/https://assets.ubuntu.com/v1/698f7a58-best-buy-logo.png" srcset="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_576,h_576/https://assets.ubuntu.com/v1/698f7a58-best-buy-logo.png 2x" alt="Best Buy" width="288" height="288" loading="lazy" class="p-logo-section__logo">
+
+<img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK293TQ?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1628006529000">
+
+<img src="https://picsum.photos/300/200">
+
+<!-- 1. yontem hangi dosyada girilecek-->
+<img src="images/1.jpg.jpeg" alt="Macbook">
+
+
+<!-- Linklerle calismak
+- baska web sitesine
+- baska bir sayfaya
+- sayfa icerisinde bir yere ? ID->bilgisine git
+- mail at
+- telefon et
+-->
+
+<div>
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org"> <!--aynı sekmede aciyor-->
+            kodluyoruz sayfasına gidilecek
+    </li>
+    <li>
+       <!-- farklı sekmede acmasi icin -->
+        <a href="https://kodluyoruz.org" target="_blank"> 
+        kodluyoruz sayfasına gidilecek
+        </a> 
+    </li>
+    <li>
+       <!--kendi proje icerisinde baska sayfaya gitme-->
+       <br> <!-- bir alt satira gec-->
+       <a href="iletisim.html">Iletisim Sayfasina Git</a> 
+    </li>
+    <li>
+        <a href="#footer"> <!--id yi # ile cagir-->
+        En Alt Kisma Git 
+        </a>
+        
+    </li>
+    <li>
+        <!--mail atma-->
+        <a href="mailto:info@kodluyoruz.org">
+            Kodluyoruz a mail at
+        </a>
+    </li>
+    <li>
+        <!--telefon acma-->
+        <a href="tel:05405300080">
+            Telefon aç
+        </a>
+    </li>
+</ul>
+<!-- resmin içine link ekleme-->
+<a href="https://picsum.photos/200" target="_blank">
+    <img src="images/1.jpg.jpeg" alt="bilgisayar">
+</a>
+
+<!-- Bulundugu yerin tamamini kaplayan elementler blok element-->
+<!--Inline element: sadece yazılan text kadar alani kapliyor
+ <strong> : koyu 
+ <em> : italik -->
+<!-- 
+    htmlreference.io:hangilerinin block-inline oldugu
+-->
+<!-- kural uygularken ne kadar yer kapladigini bilmek icin onemli -->
+
+<!-- div: tam blok olusturuyor-->
+<!-- span: sanal kutu inline, kendi basina hicbir ise yaramıyor-->
+
+<p>Lorem ipsum <strong>dolor sit</strong>  
+    amet <span style="color:aqua">consectetur adipisicing elit.</span>  Corporis, aliquam.</p>
+
+</div>
+<p> <!-- yanlis yapi deneme yapmak icin yapildi-->
+    Lorem ipsum dolor sit amet 
+    <!-- div yeni bir elemnent gibi calisip blok 
+    haline getiriyor, alt satira geciyor-->
+    <div>
+    consectetur adipisicing elit. Illo, nemo!    
+    </div>  
+</p>
+<!-- br:alt satir-->
+<!-- hr: cizgi ciziyor-->
+<hr>
+<p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Fugiat, totam.</p>
+
+
+<h2 id="footer">En Alt Kisim</h2>
+<p>Lorem ipsum dolor sit.</p>
+
+<!-- id bosluklu olamaz - ya da _
+ birden fazla sinif oalabilir
+ etiketin icerisine istedigin kadar ozellik ekleyebilirsin
+ etiket ozelligi belirttikten sonra = ve " " kullanilmali 
+ id de cift tirnak kullanilmayabilir 
+ etiket 1 tane id ye sahip olabilir
+ birden fazla sinifin icerisinde bir yazi olabilr
+-->
+<a id="ikiKelimeBoslukOlmaz" class="birinci-sinif ikinci-sinif" data-id="" href=""></a>
+
+<!-- browserin istedigi bilgiler var icon, hangi dil vs
+html yapisini basit sekilde olusturmak icin !
+-->
+<!DOCTYPE html> <!-- yapinin html oldugunu soyluyor-->
+<html lang="tr"> <!-- kullanilacak dil-->
+<head> <!-- browserin ogrenmek istedikleri-->
+    <meta charset="UTF-8"> <!-- karakter seti-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--web sitesinin nasil acilacagi-->
+    <title>Deneme</title> <!-- baslik kismi-->
+    <!-- css kismi burdan yuklenecek-->
+</head>
+<body>
+    <!-- calisacagimiz kisim-->
+    <h1> Deneme 1</h1>
+    <!-- javascript sayfanin sonunda eklenecek-->
+</body>
+</html>
+
+<!-- emment.io kullanmayi ogren-->
+
+
+
+
+
+
+
